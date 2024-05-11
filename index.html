@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mónico Bellón">
     <title>E-book</title>
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
@@ -22,15 +26,15 @@
 </head>
 
 <body>
-    <header class="header col-12">
+    <header class="fondo-negro col-12">
         <div class="col-9 espacio-xy-50 row-centrado">
             <img src="img/logo-light.png" alt="Logotipo">
         </div>
 
         <div class="row row-centrado col-10">
-            <div class="ebook col-4"><img src="img/book.png" alt="Ebook"></div>
+            <div class="col-4 row-centrado"><img src="img/book.png" alt="Ebook" class="ebook "></div>
 
-            <div class="col-6 espacio-xy">
+            <div class="col-6 ">
                 <h1 class="h1-header">Muestre y Venda su libro electrónico de forma sencilla</h1>
                 <p class="texto-1">
                     Esto debe usarse para contar una historia y permitir que sus usuarios sepan un poco más sobre su
@@ -41,8 +45,9 @@
         </div>
     </header>
 
+    <!-- Vender tu ebook -->
     <section>
-        <div class="col-3 row-centrado margen-top-200 texto-centrado">
+        <div class="col-6 row-centrado margen-top-100 texto-centrado">
             <h2 class="h2-negro">Vender tu Ebook</h2>
             <p class="texto-2">
                 Mostramos solo los mejores sitios web, portafolios y páginas de destino creados completamente con
@@ -90,10 +95,14 @@
             </div>
 
         </div>
-        <hr class="col-10 color-gris margen-top-100">
+    </section>
 
+    <hr class="col-10 color-gris margen-top-100">
+
+    <!-- Capitulos incluidos-->
+    <section>
         <div class="row row-centrado col-10 margen-top-100">
-            <div class="col-6">
+            <div class="col-5">
                 <div class="col-12 row-columna">
                     <h2 class="h2-negro">
                         Capítulos Incluidos
@@ -117,7 +126,6 @@
                             fugiat eaque voluptas ex?</p>
                     </div>
                 </div>
-
                 <div class="col-12 row efecto">
                     <div class="col-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="green" class="bi bi-star"
@@ -135,17 +143,14 @@
                             fugiat eaque voluptas ex?</p>
                     </div>
                 </div>
-
             </div>
-
-
-
-            <div class="col-6">
+            <div class="col-5">
                 <img src="img/ipad.jpg" alt="Ipad con información">
             </div>
         </div>
     </section>
 
+    <!--  Sobre al autor-->
     <section>
         <div class="col-12 row alto-600 margen-top-100 color-gris-menos">
             <div class="col-6">
@@ -162,7 +167,7 @@
         </div>
     </section>
 
-
+    <!-- Testimonios -->
     <section>
         <div class="col-10 row-centrado margen-top-100">
             <h2 class="h2-negro texto-centrado">Testimonios</h2>
@@ -184,33 +189,25 @@
                 </p>
                 <img src="img/person2.png" alt="Persona 1">
             </div>
-
-
         </div>
-
-
     </section>
 
-    <section class="margen-top-100">
-
-        <div class="color-gris-menos col-12 texto-centrado">
-            <div class="espacio-xy-50">
-                <h2>Planes de Precios</h2>
-                <p>Mostramos .... Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat illo soluta,</p>
+    <!-- Planes de precios -->
+    <section>
+        <div class="color-gris-menos col-10  row-centrado margen-top-100">
+            <div class="col-10 row-centrado espacio-xy">
+                <h2 class="h2-negro texto-centrado">Planes de Precios</h2>
+                <p class="texto-2 ">Mostramos .... Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                    illo
+                    soluta,</p>
             </div>
-
-            <div class="row-centrado row espacio-xy-50 texto-centrado ">
-                <div class="col-3 caja-blanca espacio-xy-25 margin-xy-25">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-file-earmark-pdf" viewBox="0 0 16 16">
-                        <path
-                            d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
-                        <path
-                            d="M4.603 14.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.7 11.7 0 0 0-1.997.406 11.3 11.3 0 0 1-1.02 1.51c-.292.35-.609.656-.927.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.245.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 7.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z" />
-                    </svg>
-                    <p class="precio">
-                        12 <sup>€</sup>
-                    </p>
+            <div class="row color-gris-menos col-12 row-centrado>">
+                <div class="col-3 caja-blanca espacio-xy-25  texto-centrado">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="green" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                        <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
+                        <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+                      </svg>
+                    <p class="precio">12<sup>€</sup></p>
                     <p class="precio-descripcion">
                         ebook
                     </p>
@@ -219,23 +216,30 @@
                     <p class="texto-4">Cuota basica</p>
                     <button class="boton">Empezar</button>
                 </div>
-            </div>
-
-
-            <div class="row-centrado row espacio-xy-50 texto-centrado ">
-                <div class="col-3 caja-blanca espacio-xy-25 margin-xy-25">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                <div class="col-3 caja-blanca espacio-xy-25 texto-centrado">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="green"
                         class="bi bi-file-earmark-pdf" viewBox="0 0 16 16">
                         <path
                             d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
                         <path
                             d="M4.603 14.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.7 11.7 0 0 0-1.997.406 11.3 11.3 0 0 1-1.02 1.51c-.292.35-.609.656-.927.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.245.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 7.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z" />
                     </svg>
-                    <p class="precio">
-                        12 <sup>€</sup>
-                    </p>
+                    <p class="precio">12<sup>€</sup></p>
                     <p class="precio-descripcion">
-                        ebook
+                        soft copy
+                    </p>
+                    <p class="texto-4">Cinco monitores de marca</p>
+                    <p class="texto-4">Cinco monitores de palabras clave</p>
+                    <p class="texto-4">Cuota basica</p>
+                    <button class="boton">Empezar</button>
+                </div>
+                <div class="col-3 caja-blanca espacio-xy-25 texto-centrado">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="green" class="bi bi-book" viewBox="0 0 16 16">
+                        <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg>
+                    <p class="precio">12<sup>€</sup></p>
+                    <p class="precio-descripcion">
+                        hard copy
                     </p>
                     <p class="texto-4">Cinco monitores de marca</p>
                     <p class="texto-4">Cinco monitores de palabras clave</p>
@@ -243,21 +247,19 @@
                     <button class="boton">Empezar</button>
                 </div>
             </div>
-
-        </div>
-        </div>
     </section>
 
-    <footer>
+    <footer class="fondo-negro">
         <div class="row row-columna col-12 footer margen-top-100 texto-centrado">
             <h2 class="texto-1 h2-negro col-4">
                 Muestra y venda su libro electronico de forma sencilla
             </h2>
-            <p class="texto-2 col-4">Esto debe usarse ......</p>
+            <p class="texto-2 col-4">
+                Esto debe usarse para contar una historia y permitir que sus usuarios sepan un poco más sobre su producto o servicio.</p>
             <button class="boton">Descargar</button>
         </div>
     </footer>
-    <p class="texto-centrado precio-descripcion">Desarrollado por Mónico Bellón con tecnologia Web <span
+    <p class="texto-centrado precio-descripcion"> ©️ Desarrollado por Mónico Bellón con tecnologia Web <span
             class="rojo">❤️</span></p>
 </body>
 
